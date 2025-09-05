@@ -56,3 +56,132 @@ nav{
     font-weight: 700;
 
 }
+
+/*pillars syle */
+
+.all-pillars{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom:80px;
+}
+
+
+.pillars-section{
+    margin: 80px 130px 80px 135px;
+}
+
+
+.pillars-containar{
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    box-shadow: 5px 5px 10px gray;
+    margin-right: 24px;
+    border-radius: 5px;
+    
+}
+
+.pillars-con-title{
+ font-size: 20px;
+ font-weight: bold;
+ color: rgba(14, 14, 14, 80%);
+
+}
+
+.pillars-description{
+font-size: 16px;
+color: rgba(14, 14, 14, 70%);
+
+
+}
+
+
+.pillars-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*vision design*/
+.the-vision-section{
+
+    margin: 80px 130px 80px 135px;
+}
+
+.title-box{
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.pillars-containar1{
+ padding: 32px 32px 32px 32px;
+ border-radius: 10px;
+ width: 410px;
+ height: 295px;
+ margin-right: 24px;
+ background-color: rgba(84, 144, 245, 20%);
+}
+.pillars-containar2{
+  padding: 32px 32px 32px 32px;
+ border-radius: 10px;
+ width: 410px;
+ height: 295px;
+ margin-right: 24px;
+ background-color: rgba(9, 161, 92, 20%);
+}
+.pillars-containar3{
+     padding: 32px 32px 32px 32px;
+ border-radius: 10px;
+ width: 410px;
+ height: 295px;
+ background-color: rgba(255, 194, 57, 20%);
+ 
+
+}
+.btn1{
+    color: white;
+    padding: 11px 20px 11px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color:#5490F5 ;
+}
+.btn2{
+    color: white;
+    padding: 11px 20px 11px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: #09A15C;
+}
+.btn3{
+    color: white;
+    padding: 11px 20px 11px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color:#FFC239;
+
+}
+.all-btn{
+    margin-top: 24px;
+    
+}
+.vision-last-section{
+    box-shadow: 2px 2px 2cap 2px gray;
+    
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 48px 24px 48px 24px;
+    border-radius: 10px;
+}
+.section-title-description{
+    color: rgba(14, 14, 14, 70%);
+    font-size: 16px;
+}
+
+.vision-yunus{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 80%);
+}
