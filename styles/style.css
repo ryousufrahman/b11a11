@@ -53,7 +53,7 @@ nav{
     margin: 24px 160px auto 160px;
     padding: 80px 100px 80px 100px;
     border-radius: 24px;
-    height: 560px;
+    height: 500px;
     margin-bottom: 100px;
 
 }
@@ -185,7 +185,7 @@ color: rgba(14, 14, 14, 70%);
 .vision-last-section{
     box-shadow: 2px 2px 2cap 2px gray;
     
-    background-image: url(assets/quote-bg.png);
+background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
     padding: 48px 24px 48px 24px;
@@ -236,6 +236,7 @@ color: rgba(14, 14, 14, 70%);
     width: 200px;
     height: 92px;
     padding: 24px;
+   
     
 }
 .table-head1 , .table-head2{
@@ -300,31 +301,36 @@ color: rgba(14, 14, 14, 70%);
     list-style: none;
     display: flex;
     gap: 24px;
+    margin: 80px 130px 80px 130px;
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 80%);
-    margin: 80px 130px 80px 130px;
     width:1072px;
     height: 128px;
     
     
     
 }
-.all-donate{
-    margin: 80px 130px 80px 130px;
+
+
+.money-ammount{
+ margin: 80px 130px 80px 130px;
+ 
 }
+
 
 .taka{
     box-shadow: 2px 2px 2px 2px gray;
     padding: 32px;
     border-radius: 10px;
+    width: 250px;
 }
 .color{
     background-color: #C6E4D6;
 }
 .title-box{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 80px 130px 80px 130px;
 }
 .section-title{
     font-weight: bold;
@@ -332,6 +338,11 @@ color: rgba(14, 14, 14, 70%);
 }
 .other-ammount{
     text-align: center;
+    margin-top: 80px;
+    
+}
+
+.all-donate{
     
 }
 
@@ -351,12 +362,24 @@ color: rgba(14, 14, 14, 70%);
     width: 1071px;
     height: 128px;
     border-radius: 20px;
+
+
     
+
+    
+}
+
+
+.section-title-description{
+
+    margin: 80px 130px 80px 130px;
 }
 .donate-button{
     text-align: center;
     margin-top: 32px;
 }
+
+
 
 /*newsletter */
 
@@ -391,6 +414,8 @@ color: rgba(14, 14, 14, 70%);
     width: 550px;
     height: 71px;
     border-radius: 10px;
+    
+    border: none;
 }
 
 .last-title-div{
@@ -407,4 +432,10 @@ color: rgba(14, 14, 14, 70%);
 }
 img{
     gap: 20px;
+}
+::placeholder{
+    padding: 18px auto 18px auto;
+}
+.ing{
+    margin-right: 20px;
 }
