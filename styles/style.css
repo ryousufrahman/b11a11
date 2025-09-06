@@ -185,7 +185,7 @@ color: rgba(14, 14, 14, 70%);
 .vision-last-section{
     box-shadow: 2px 2px 2cap 2px gray;
     
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
     padding: 48px 24px 48px 24px;
