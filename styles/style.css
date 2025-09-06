@@ -185,3 +185,92 @@ color: rgba(14, 14, 14, 70%);
     font-size: 20px;
     color: rgba(14, 14, 14, 80%);
 }
+
+
+/*table style*/
+
+
+
+
+.main-tabil{
+    padding: 32px;
+    border-radius: 10px;
+    
+}
+
+.table{
+    width: 1216px;
+    height: 345px;
+    border: 5px solid black;
+}
+
+
+.table-section{
+    margin: 80px 130px 80px 135px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 32px;
+    border-radius: 15px;
+}
+.spred-question{
+    width: 1016px;
+    height: 92px;
+    padding: 24px;
+}
+.option{
+    width: 200px;
+    height: 92px;
+    padding: 24px;
+    
+}
+.table-head1 , .table-head2{
+    background-color: #C6E4D6;
+}
+
+.question{
+    font-weight: 700;
+    font-size: 20px;
+}
+.spred-question{
+    font-weight: 700;
+    font-size: 16px;
+}
+.opt-color{
+    background-color:#C6E4D6 ;
+    padding: 20px;
+}
+
+
+/*news style*/
+
+
+
+
+.newses{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    margin-bottom:24px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.recent-news{
+    margin: 80px 130px 80px 135px;
+
+}
+.all-button{
+    margin-top: 32px;
+}
+.news-head{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 80%);
+}
+
+.news-element , .date{
+    font-size: 16;
+    color: rgba(14, 14, 14, 70%);
+}
+.time{
+    display: flex;
+    gap: 20px;
+}
