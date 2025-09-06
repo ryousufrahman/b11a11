@@ -1,4 +1,20 @@
 
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
 nav{
     display: flex;
  justify-content: space-between;
@@ -37,7 +53,7 @@ nav{
     margin: 24px 160px auto 160px;
     padding: 80px 100px 80px 100px;
     border-radius: 24px;
-    height: 400px;
+    height: 560px;
     margin-bottom: 100px;
 
 }
@@ -272,5 +288,123 @@ color: rgba(14, 14, 14, 70%);
 }
 .time{
     display: flex;
+    gap: 20px;
+}
+
+
+/*donate section*/
+
+
+.ammount-list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 80%);
+    margin: 80px 130px 80px 130px;
+    width:1072px;
+    height: 128px;
+    
+    
+    
+}
+.all-donate{
+    margin: 80px 130px 80px 130px;
+}
+
+.taka{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 32px;
+    border-radius: 10px;
+}
+.color{
+    background-color: #C6E4D6;
+}
+.title-box{
+    text-align: center;
+    margin-top: 80px;
+}
+.section-title{
+    font-weight: bold;
+    size: 40px;
+}
+.other-ammount{
+    text-align: center;
+    
+}
+
+
+
+
+.other-taka{
+    width: 1032px;
+    height: 64px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    padding: 20px auto 20px auto;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-top: 80px;
+}
+.money-selection{
+    width: 1071px;
+    height: 128px;
+    border-radius: 20px;
+    
+}
+.donate-button{
+    text-align: center;
+    margin-top: 32px;
+}
+
+/*newsletter */
+
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.newsletter{
+    text-align: center;
+}
+.news-main-div{
+    
+    background-color: #C6E4D6;
+    margin: 80px 130px 80px 130px;
+    padding: 100px;
+    border-radius: 25px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 80px;
+    margin-bottom: 16px;
+}
+.section-title-description{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.input-email{
+    width: 550px;
+    height: 71px;
+    border-radius: 10px;
+}
+
+.last-title-div{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 64px;
+}
+.last-img{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.last content{
+    background-color: white;
+}
+img{
     gap: 20px;
 }
